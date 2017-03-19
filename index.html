@@ -7,7 +7,7 @@
        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
-     <nav id="menu">
+     <nav id="mainmenu">
     <ul>
         <li class="menu-item"><a href="#">O mnie</a></li>
         <li class="menu-item"><a href="#about">Moje umiejetnosci</a></li>
@@ -15,9 +15,9 @@
         <li class="menu-item"><a href="#contact">Kontakt</a></li>
     </ul>
 </nav>
-   <header id="header">      
+   <header id="mainheader">      
    <div class="header-caption">
-    <h1>Jan Nowak</h1>
+    <h1>Jan <span>Nowak</span></h1>
     <h2>Front-End Developer</h2>
     </div>
   </header>
@@ -25,12 +25,51 @@
     
     
    <section id="about">
-    <h3 id="about-header">O mnie</h3>
-    <img src="img/jan-nowak.jpg" alt="Zdjęcie jan-nowak">
-    <p class="about-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!</p>
-    <p class="about-content"> Uważa, że każdy może zostać programistą, dlatego prowadzi warsztaty na uczelniach wyższych oraz w ramach projektu Codevenig, na których pokazuje jak funkcjonują współczesne strony internetowe.</p>
-</section>
-    <h4>Moje umiejetnosci</h4>
-    <h5>Moje portfolio</h5>
+    <h3 id="about-header">O <span>mnie</span></h3>
+    <figure class="col1-2">
+  <img src="img/jan-nowak.jpg" class="about-img" alt="Jan Nowak">
+       </figure>
+       <div class="col1-2">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!</p>
+    </div>
+    </section>
+    
+    
+    <section id="skills">
+   <h3>Moje <span>umiejetnosci</span></h3>
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!</p>
+    <div class="skills-icons">
+    <figure>
+        <img src="icons/html5.png" alt="HTML5">
+        <figcaption>HTML</figcaption>
+  </figure>
+  <figure>
+        <img src="icons/css3.png" alt="CSS3">
+        <figcaption>CSS</figcaption>
+  </figure>
+   <figure>
+        <img src="icons/js.png" alt="JavaScript">
+        <figcaption>JavaScript</figcaption>
+  </figure>
+  <figure>
+        <img src="icons/jquery.png" alt="jQuery">
+        <figcaption>jQuery</figcaption>
+  </figure>
+</div>
+    </section>
+     
+   
+   <section id="portfolio">
+    <h3>Moje <span>portfolio</span></h3>
+    <div class="portfolio-items">
+    <div class="portfolio-item" id="portfolio-item-1"></div>
+    <div class="portfolio-item" id="portfolio-item-2"></div>
+    <div class="portfolio-item" id="portfolio-item-3"></div>
+    </div>
+    
+    </section>
+    
+    
 </body>
 </html>

@@ -6,6 +6,7 @@
         width: 100%;
     }
 }
+/* powyzej zdjecie portfolio */
 
 @media (max-width: 768px) {
     #mainmenu label {
@@ -26,6 +27,9 @@
     #drop:checked + ul {
         display: block;
     }
+    
+    /*powyzej menu blokowe */
+    
     #about figure .about-img {
         width: 100%;
         max-height: none;
@@ -34,7 +38,12 @@
         width: 100%;
         display
     }
+    #contact, #contact h2 {
+        text-align: center;
+        
+    }
 }
+/*zdjecie w sekcji o mnie */
 
 @media (max-width: 480px) {
     #mainheader .header-caption h1 {
@@ -52,12 +61,14 @@
         color: #fff;
         width: 100%;
     }
+    
+    /*kwadraciki portfolio*/ 
     #portfolio {
         padding: 40px 0;
     }
     #contact .social-icons {
         margin: 0;
-        
-    }    
+    }
+    
     
 }

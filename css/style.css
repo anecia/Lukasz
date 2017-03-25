@@ -36,8 +36,19 @@ section {
     position: fixed;
     width: 100%;
     z-index: 10;
+    
+    
+}
+#mainmenu label,
+#mainmenu #drop {
+    display:none;
 }
 
+#mainmenu ul {
+    margin: 0;
+    text-align: right;
+    
+}
 #mainmenu .menu-item {
     display: inline-block;
     text-align: right;
@@ -169,9 +180,28 @@ section {
     top: 50%;
     transform: translateY(-50%);
     margin: auto;
+    text-decoration: none;
+    
+}
+#portfolio .portfolio-item .portfolio-mask .portfolio-content .portfolio-content-inner {
+   position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+        padding: 5px;
+    width:100%;
+}
+
+ #portfolio .portfolio-item .portfolio-mask .portfolio-content a {
+   color: #fff;
+     transition: all .3s;
     
 }
 
+ #portfolio .portfolio-item .portfolio-mask .portfolio-content a {
+   color: #1ac056;;
+    
+    
+}
 #portfolio-item-1 {
     background-image: url(../img/portfolio1.jpg)
 }
@@ -183,3 +213,65 @@ section {
 #portfolio-item-3 {
     background-image: url(../img/portfolio4.jpg)
 }
+
+#contact {
+    background-color: #213b50;
+   color: #fff;
+        
+}
+
+
+#contact h3 {
+        text-align: left;
+    
+}
+#contact address {
+    font-style: normal;
+}
+
+#contact .social-icons {
+    margin-top: 30px;
+    
+}
+
+
+#contact .social-icons a {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    height: 50 px;
+    width: 50px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 1px;
+    font-size: 1.4em;
+
+
+
+}
+
+
+#contact .social-icons a:hover {
+    color: #213b50;
+    background-color: #fff;
+
+
+
+}
+#contact form {
+padding: 60px;
+}
+
+
+#contact form input:not([type='submit']), 
+#contact form textarea {
+    width: 100%;
+    background-color: #2b4a64;
+    border:0px solid #fff;
+    padding:10 px;
+    float: right;
+    margin-bottom: 15px:
+}
+    
+      
+

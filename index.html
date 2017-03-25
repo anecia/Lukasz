@@ -4,12 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Jan Nowak</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 
 <body>
     <nav id="mainmenu">
+       <label for="drop">Menu</label>
+       <input type="checkbox" id="drop">
         <ul>
             <li class="menu-item"><a href="#">O mnie</a></li>
             <li class="menu-item"><a href="#about">Moje umiejetnosci</a></li>
@@ -17,6 +22,7 @@
             <li class="menu-item"><a href="#contact">Kontakt</a></li>
         </ul>
     </nav>
+    
     <header id="mainheader">
         <div class="header-caption">
             <h1>Jan <span>Nowak</span></h1>
@@ -73,6 +79,7 @@
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                             <h5>Lorem</h5>
                             <p>HTML5, CSS3, JavaScript, jQuery</p>
+                            <a href=""> <i class="fa fa-link" ></i></a>
                         </div>
                     </div>
                          
@@ -81,13 +88,83 @@
             </div>
             <div class="portfolio-item" id="portfolio-item-2">
                 <div class="portfolio-mask">Tekst</div>
+            <div class="portfolio-mask">
+                    <div class="portfolio-content">
+                        <div class="portfolio-content-inner">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <h5>Lorem</h5>
+                            <p>HTML5, CSS3, JavaScript, jQuery</p>
+                            <a href=""> <i class="fa fa-link" ></i></a>
+                        </div>
+                    </div>
+                         
+                    
+                </div>
+            
+            
+            
             </div>
             <div class="portfolio-item" id="portfolio-item-3">
                 <div class="portfolio-mask">Tekst</div>
+                
+                <div class="portfolio-mask">
+                    <div class="portfolio-content">
+                        <div class="portfolio-content-inner">
+                            <h4>Lorem ipsum</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                            <h5>Lorem</h5>
+                            <p>HTML5, CSS3, JavaScript, jQuery</p>
+                            <a href=""> <i class="fa fa-link" ></i></a>
+                        </div>
+                    </div>
+                         
+                    
+                </div>
             </div>
         </div>
 
     </section>
+
+    <section id="contact">
+        <div class="col1-2">    
+
+            <h3> Jan  <span>Nowak <br></span></h3>
+
+            <address>
+            ul. Mostowa 6/13<br>
+            31-061 Krakow<br>
+            tel: 606 74 57 59<br>
+            email: <span>example@example.com</span><br>
+
+            </address>
+
+            <div class="social-icons">
+                <a href=""><i  class="fa fa-facebook"></i></a>
+                <a href=""><i  class="fa fa-google-plus"></i></a>
+                <a href=""><i  class="fa fa-twitter"></i></a>
+                <a href=""><i  class="fa fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+        <div class="col1-2">
+            <input type="text" placeholder="Imię i nazwisko" />
+            <br />
+
+            <input type="email" placeholder="E-mail" />
+            <br />
+
+            <textarea name="message" placeholder="Tresc wiadomosci" ></textarea>
+            <br /> 
+            <input type="submit" value="Wyslij"  >
+        </div>     
+
+
+
+    </section>
+
+
+    
 
 
 </body>

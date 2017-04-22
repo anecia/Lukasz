@@ -21,21 +21,19 @@ p {
     line-height: 1.5em;
 }
 
-.col1-2 {
-    width: 50%;
-    float: left;
-}
-
 section {
     overflow: auto;
-    padding: 40px 60px;
+    padding: 60px 0;
+
 }
 
 #mainmenu {
-    background: #fff;
+    background: transparent;
     position: fixed;
     width: 100%;
     z-index: 10;
+    border: none;
+    border-radius: 
     
     
 }
@@ -44,18 +42,28 @@ section {
     display:none;
 }
 
-#mainmenu ul {
-    margin: 0;
-    text-align: right;
+
+#mainmenu ul .menu-item a {
+   color: #1ac056;
+    
+}
+
+#mainmenu.scroll ul .menu-item a:hover {
+   color: #291f1a;
     
 }
 #mainmenu .menu-item {
     display: inline-block;
-    text-align: right;
+    text-align: left;
     padding: 25px;
 }
 
-#mainmenu ul {
+#mainmenu.scroll {
+    background-color: #fff;
+    
+}
+
+#mainmenu.scroll ul {
     margin: 0;
     text-align: right;
     list-style: none;
@@ -68,7 +76,7 @@ section {
     transition: all .3s;
 }
 
-#menu .menu-item a:hover {
+#mainmenu .menu-item a:hover {
     color: #999;
 }
 

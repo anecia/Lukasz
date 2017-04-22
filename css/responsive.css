@@ -11,13 +11,21 @@
 @media (max-width: 768px) {
     #mainmenu label {
         display: block;
-        text-align: right;
+        text-align: left;
         padding: 15px;
+        border: none;
+        border-radius:
     }
+    
     #mainmenu ul {
         margin: 0px;
-        display: none;
+        
         color: #1ac056;
+    }
+    
+     #main-menu {
+        border: none;
+        border-radius:
     }
     #mainmenu ul .menu-item {
         display: block;

@@ -4,23 +4,46 @@
 <head>
     <meta charset="UTF-8">
     <title>Jan Nowak</title>
+     <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
 </head>
 
 <body>
-    <nav id="mainmenu">
-       <label for="drop">Menu</label>
+    <nav id="mainmenu" class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <!-- <a class="navbar-brand" href="#">Menu</a>-->
+    </div>
+  </div>  
+     <div class="collapse navbar-collapse" id="main-menu">
+      <ul class="nav navbar-nav navbar-right">
+         <li class="menu-item"><a href="#about">O mnie</a></li>
+            <li class="menu-item"><a href="#skills">Moje umiejetnosci</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Kontakt</a></li>
+          
+</ul>
+        </div>
+      <!-- <label for="drop">Menu</label>
        <input type="checkbox" id="drop">
         <ul>
-            <li class="menu-item"><a href="#">O mnie</a></li>
-            <li class="menu-item"><a href="#about">Moje umiejetnosci</a></li>
-            <li class="menu-item"><a href="#contact">Portfolio</a></li>
+            <li class="menu-item"><a href="#about">O mnie</a></li>
+            <li class="menu-item"><a href="#skills">Moje umiejetnosci</a></li>
+            <li class="menu-item"><a href="#portfolio">Portfolio</a></li>
             <li class="menu-item"><a href="#contact">Kontakt</a></li>
-        </ul>
+        </ul>-->
     </nav>
     
     <header id="mainheader">
@@ -33,21 +56,27 @@
 
 
     <section id="about">
+       <div class="container">
         <h3 id="about-header">O <span>mnie</span></h3>
-        <figure class="col1-2">
+        </div>
+        <div class="row">
+        <figure class="col-sm-6">
             <img src="img/jan-nowak.jpg" class="about-img" alt="Jan Nowak">
         </figure>
         <div class="col1-2">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum inventore illum blanditiis eum neque, hic possimus minus magni, velit officiis dolorum libero iusto impedit tempore et, sequi mollitia modi quasi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!</p>
         </div>
+        </div>
     </section>
 
 
     <section id="skills">
+       <div class="container">
+       <div class="row">
         <h3>Moje <span>umiejetnosci</span></h3>
-
+</div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex expedita animi quas voluptas voluptate neque, qui in vero. Quam dignissimos iure blanditiis recusandae nihil labore possimus soluta facere eius distinctio!</p>
-        <div class="skills-icons">
+        <div class="skills-icons row">
             <figure>
                 <img src="icons/html5.png" alt="HTML5">
                 <figcaption>HTML</figcaption>
@@ -64,6 +93,7 @@
                 <img src="icons/jquery.png" alt="jQuery">
                 <figcaption>jQuery</figcaption>
             </figure>
+        </div>    
         </div>
     </section>
 
@@ -162,9 +192,11 @@
 
 
     </section>
+    <script type="text/javascript" src="jquery-3.2.0.min.js"></script>
+     <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
+<script type="text/javascript" src="main.js"></script>
 
-    
 
 
 </body>
